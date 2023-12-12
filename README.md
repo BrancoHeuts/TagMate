@@ -30,12 +30,12 @@ Follow the steps below to configure and use the script effectively:
 
 ## Download and Installation
 
-To download and install the Music-Library-Tagger package from GitHub, follow these steps:
+To download and install the TagMate package from GitHub, follow these steps:
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/branco-heuts/TagMate.git
+    git clone https://github.com/brancoheuts/TagMate.git
     ```
 
 
@@ -54,15 +54,26 @@ To download and install the Music-Library-Tagger package from GitHub, follow the
    This will install all the necessary dependencies specified in the `setup.py` file.
 
 
+4. Navigate to the package directory:
+
+    ```bash
+    cd TagMate
+    ```
+
+
 ## Spotify API Initialization
 
-Before running the script, initialize the Spotify API by providing your credentials in the .env file:
+Before running the script, initialize the Spotify API by providing your credentials in an .env file:
+1. Create an ".env" file
+2. Add your own credentials (CLIENT_ID & CLIENT_SECRET):
 
-```plaintext
-REDIRECT_URI="http://example.com"
-CLIENT_ID=your_client_id
-CLIENT_SECRET=your_client_secret
-```
+    ```plaintext
+    # environment variables
+    # Spotify API credentials
+    REDIRECT_URI="http://example.com"
+    CLIENT_ID=your_client_id
+    CLIENT_SECRET=your_client_secret
+    ```
 &nbsp;
 #### Here is how:
 
