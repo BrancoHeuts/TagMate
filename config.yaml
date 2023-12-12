@@ -1,0 +1,20 @@
+# This file is used to configure variables to run main.py
+
+# Required directory layout:
+# path_to_music_directory/{LIBRARY_NAME}/
+# │
+# └── music_to_be_tagged/
+# └── possible_mismatch/
+
+music_dir: "D:/Music/01_Library/Current_collection"
+
+
+# Set Spotify library name & link
+library:
+  BRNC: 'https://open.spotify.com/playlist/1DinCFd7XnmeGsx2HB2Rku?si=b6d9d23a22fc4a37'
+#  BeestFeest: 'https://open.spotify.com/playlist/27p6Ra0vuxym3fybyvIeTa?si=40ffd343d0944d9a'
+
+
+# Configuration for mode
+#mode: manual
+mode: automatic  # Uses Beatport.com to add genre and label tags (requires manual quality control as this is ~95% accurate)
